@@ -1,6 +1,6 @@
-# AprendiendoLatex  
+﻿# AprendiendoLatex  
   
-Ejercicios de Latex:  
+Ejercicios de Latex1:  
   
 1. Cómo escribir un artículo de dos columnas con abstract, figuras y tablas en una columna  
 2. Cómo escribir una tesis con LaTeX  
