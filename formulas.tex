@@ -1,0 +1,36 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\author{Vikman}
+\title{Mi documento}
+\begin{document}
+
+\section{Ecuaciones de Maxwell}
+
+\begin{equation}
+\Phi=\oint_{S}\overrightarrow{E} \cdot d\overrightarrow{S}=\frac{q}{\varepsilon_0} \quad \text{(Ley de Gauss)}
+\end{equation}
+
+\begin{equation}
+\oint_S\overrightarrow{B} \cdot d\overrightarrow{S}=0 \quad\text{(Ley de Gauss para el campo magnético)}
+\end{equation}
+
+\begin{equation}
+\oint_C \overrightarrow{E} \cdot d\overrightarrow{l} = - \frac{d}{dt} \int_S \overrightarrow{B} \cdot d\overrightarrow{S} \quad \text{(Ley de Faraday)}
+\end{equation}
+
+\begin{equation}
+\oint_C \overrightarrow{B} \cdot d\overrightarrow{l}=\mu_0 \int_S \overrightarrow{j} \cdot d\overrightarrow{S} + \mu_0 \epsilon_0 \frac{d}{dt} \int_S \overrightarrow{E} \cdot d\overrightarrow{S} \quad \text{(Ley de Ampère)}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+0 & E_x/c & E_y/c & E_x/c \\
+-E_x/c & 0 & -B_z & B_y \\
+-E_y/c & B_z & 0 & -B_x \\
+-E_z/c & -B_y & B_x & 0
+\end{pmatrix}
+\end{equation}
+
+\end{document}
