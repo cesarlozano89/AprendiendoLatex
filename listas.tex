@@ -1,0 +1,58 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\author{Vikman}
+\title{Ejercicio}
+
+\begin{document}
+
+  \maketitle
+  \tableofcontents
+  \listoffigures
+
+  \pagebreak
+  \section{Ejemplo de lista}
+
+  \begin{itemize}
+    \item Primer elemento.
+    \item Segundo elemento.
+    \item Tercer elemento.
+  \end{itemize}
+  
+  \ldots Y así podríamos seguir muchas páginas.
+
+  \section{Gráfico}
+
+  \setlength{\unitlength}{0.8cm}
+  \begin{figure}[!ht]
+    \centering
+    \begin{tabular}{|p{\textwidth}|}
+      \hline
+      \begin{picture}(6,4)(-3,-2)
+        \put(-2.5,0){\vector(1,0){5}}
+        \put(2.7,-0.1){$\chi$}
+        \put(0,-1.5){\vector(0,1){3}}
+        \multiput(-2.5,1)(0.4,0){13}{\line(1,0){0.2}}
+        \multiput(-2.5,-1)(0.4,0){13}{\line(1,0){0.2}}
+        \put(0.2,1.4){$\beta=v/c=\tanh\chi$}
+        \qbezier(0,0)(0.8853,0.8853)(2,0.9640)
+        \qbezier(0,0)(-0.8853,-0.8853)(-2,-0.9640)
+        \put(-3,-2){\circle*{0.2}}
+      \end{picture} \\
+      \hline
+    \end{tabular}
+    
+    \caption[Relatividad especial de Einstein]{\label{fig:einstein} Relatividad especial.}
+  \end{figure}
+
+  \section{Imagen}
+  
+  \begin{figure}[!ht]
+    \includegraphics[width=\textwidth]{imagen}
+    \caption[Ejemplo de imagen]{\label{fig:im} Una imagen cualquiera.}
+  \end{figure}
+
+\end{document}
